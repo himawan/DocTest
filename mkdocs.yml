@@ -1,0 +1,17 @@
+site_name: MkDocs Document Trial
+theme:
+  name: material
+  # logo: assets/logo.png       # For top-left logo
+  # favicon: assets/favicon.ico # For browser tab icon
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - pymdownx.tasklist
+  - pymdownx.tilde
+plugins:
+   - search
+   - awesome-pages
